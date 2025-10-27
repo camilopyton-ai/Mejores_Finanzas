@@ -79,3 +79,8 @@ df_sim["Saldo_final"] = saldo_final
 # Exportar a Excel si lo deseas
 df_sim.to_excel("Simulacion_MonteCarlo_Finanzas.xlsx", index=False)
 print("\nArchivo 'Simulacion_MonteCarlo_Finanzas.xlsx' generado correctamente.")
+
+git add requirements.txt
+git commit -m "Agrega archivo requirements.txt"
+git push
+
